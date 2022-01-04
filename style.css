@@ -26,3 +26,67 @@ background-color: tomato;
     color:black;
 }
 /*section1*/
+.section1{
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/exp-bg.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position-y: 180px;
+}
+
+  
+.box1{
+    width: 40%;
+   
+   margin:5%;
+   padding:15px;
+   border-bottom: 3px solid black;
+   font-family: 'Poppins', sans-serif;
+   border-left: 3px solid rgb(0, 0, 0);
+    
+}
+#img {
+    background-image: url(./img/mypic.png);
+    background-position: left;
+    background-size: contain;
+    background-position-x: 75px;
+}
+.pf {
+    color:tomato
+}
+.box1 h1{
+    font-size: 40px;
+    color:tomato;
+   
+}
+.p1{
+    font-size: 35px;
+    margin-top: -27px;
+    font-weight: 700;
+  
+}
+.p2{
+    font-size: 18px;
+
+}
+.box1 h2 {
+    
+}
+.c{
+    color: tomato;
+}
+.pera{
+    width: 200px;
+    text-align: justify;
+    word-spacing: -9px;
+}
+button {
+    padding: 8px 54px;
+    background-color: tomato;
+    color: wheat;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+}
+/*section2/*
