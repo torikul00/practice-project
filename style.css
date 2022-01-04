@@ -1,32 +1,36 @@
-
-body{
-    margin:0px;
+body {
+    margin: 0px;
     height: 0px;
 }
-.navbar{
-width: 100%;
-height: 50px;
-background-color: tomato;
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: tomato;
 }
+
 .navul {
     display: flex;
     margin-left: 30px;
 }
+
 .navul li {
-  list-style-type: none;
-    margin:12px;
-  font-weight: bold;
-  font-family: 'Poppins', sans-serif;
-  padding-left: 19px;
-  color:white;
-  border-left: 2px solid rgba(0, 0, 0, 0.288);
+    list-style-type: none;
+    margin: 12px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 19px;
+    color: white;
+    border-left: 2px solid rgba(0, 0, 0, 0.288);
 }
+
 .navul li a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
+
 /*section1*/
-.section1{
+.section1 {
     width: 100%;
     height: 500px;
     background-image: url(./img/exp-bg.png);
@@ -35,48 +39,48 @@ background-color: tomato;
     background-position-y: 180px;
 }
 
-  
-.box1{
+
+.box1 {
     width: 40%;
-   
-   margin:5%;
-   padding:15px;
-   border-bottom: 3px solid black;
-   font-family: 'Poppins', sans-serif;
-   border-left: 3px solid rgb(0, 0, 0);
-    
+
+    margin: 5%;
+    padding: 15px;
+
+    font-family: 'Poppins', sans-serif;
+
+    box-shadow: 1px 1px 4px black;
 }
+
 #img {
     background-image: url(./img/mypic.png);
     background-position: left;
     background-size: contain;
     background-position-x: 75px;
 }
+
 .pf {
-    color:tomato
+    color: tomato
 }
-.box1 h1{
+.box1 h1 {
     font-size: 40px;
-    color:tomato;
-   
+    color: tomato;
 }
-.p1{
+
+.p1 {
     font-size: 35px;
     margin-top: -27px;
     font-weight: 700;
-  
 }
-.p2{
-    font-size: 18px;
 
+.p2 {
+    font-size: 18px;
 }
-.box1 h2 {
-    
-}
-.c{
+.box1 h2 {}
+
+.c {
     color: tomato;
 }
-.pera{
+.pera {
     width: 200px;
     text-align: justify;
     word-spacing: -9px;
@@ -88,5 +92,27 @@ button {
     font-size: 16px;
     border: none;
     font-weight: bold;
+
+    position: relative;
+    z-index: 2;
+    border-radius: 3px;
+    overflow: hidden;
 }
-/*section2/*
+
+button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: 0px;
+    transition: 0.6s;
+    background-color: black;
+
+    height: 0%;
+    z-index: -1;
+    width: 100%;
+}
+
+button:hover::before {
+    border-radius: 0px 0px 50% 50%;
+    height: 150%;
+}
