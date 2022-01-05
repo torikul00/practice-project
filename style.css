@@ -2,17 +2,18 @@ body {
     margin: 0px;
     height: 0px;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 .navbar {
     width: 100%;
     height: 50px;
-    background-color: tomato;
+    background-color: #000000;
 }
 
 .navul {
     display: flex;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .navul li {
@@ -27,10 +28,136 @@ body {
 
 .navul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
+
+
+
 /*section1*/
+
+
+.sectn3{
+    background: url(/img/ho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.transparent{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.719);
+    position: relative;
+}
+.section1-box{
+
+width: 700px;
+height: 300px;
+
+margin-left: 10% ;
+margin-top: 5%;
+position: absolute;
+}
+.section1-box h1{
+    color:white;
+    margin: 0px;
+    font-size: 40px;
+
+}
+.section1-box p {
+    color:rgba(255, 255, 255, 0.315);
+    text-align: justify;
+}
+#lol{
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+/*section2*/
+.section2 {
+    width: 100%;
+    height: 500px;
+    background-image: url(/img/wave.svg);
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.boxerbap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lorem {
+    font-size: 30px;
+    text-align: center;
+}
+
+.box3 {
+
+    width: 25%;
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 15px;
+    box-shadow: 2px 1px 9px black;
+}
+
+.web {}
+
+.box3 img {
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+    display: block;
+}
+
+.webtittle {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.web-pera {
+    text-align: justify;
+    margin-top: 37px;
+    color: white;
+}
+
+.btn {
+    margin: 49px auto;
+    display: block;
+}
+
+.services {
+    box-shadow: 2px 1px 9px rgba(0, 0, 0, 0.116);
+    font-weight: 900;
+}
+
+
+/*section1*/
+
+.sectn{
+    width: 100%;
+    height: 500px;
+}
+
+.section3{
+    
+    background: url(/img/ho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*section3*/
 .section1 {
     width: 100%;
     height: 500px;
@@ -39,8 +166,6 @@ body {
 
     display: flex;
     background-repeat: no-repeat;
-
-
 }
 
 button a {
@@ -127,66 +252,4 @@ button::before {
 button:hover::before {
     border-radius: 0px 0px 50% 50%;
     height: 150%;
-}
-
-/*section2*/
-.section2 {
-    width: 100%;
-    height: 500px;
-    background-image: url(/img/wave.svg);
-    background-size: cover;
- 
-}
-.boxerbap{
-    display: flex;
-    justify-content: space-around;
-}
-
-.lorem {
-
-    font-size: 30px;
-    text-align: center;
-
-}
-.box3{
-
-width: 25%;
-height: 380px;
-background-color:rgba(0, 0, 0, 0.568);
-padding: 15px;
-box-shadow: 2px 1px 9px black;
-
-
-}
-.web{
-}
-.box3 img {
-    width: 100px;
-    height: 100px;
-    margin: 5px auto;
-    display: block;
-    
-    
-   
-}
-.webtittle{
-    text-align: center;
-    font-weight: 800;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
- 
-}
-.web-pera{
-    text-align: justify;
-    margin-top: 37px;
-    color:white;
-}
-.btn{
-    margin: 49px auto;
-    display: block;
-}
-.services{
-
-  box-shadow: 2px 1px 9px rgba(0, 0, 0, 0.116);
-  font-weight: 900;
 }
