@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     height: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -33,12 +34,19 @@ body {
 .section1 {
     width: 100%;
     height: 500px;
-    background-image: url(./img/exp-bg.png);
+    background-image: url(/img/ddd.png);
+    background-size: cover;
+
     display: flex;
     background-repeat: no-repeat;
-    background-position-y: 180px;
+
+
 }
 
+button a {
+    text-decoration: none;
+    color: white
+}
 
 .box1 {
     width: 40%;
@@ -48,19 +56,20 @@ body {
 
     font-family: 'Poppins', sans-serif;
 
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 1px 1px 9px #000000;
 }
 
 #img {
     background-image: url(./img/mypic.png);
     background-position: left;
-    background-size: contain;
+    background-size: cover;
     background-position-x: 75px;
 }
 
 .pf {
     color: tomato
 }
+
 .box1 h1 {
     font-size: 40px;
     color: tomato;
@@ -75,16 +84,19 @@ body {
 .p2 {
     font-size: 18px;
 }
+
 .box1 h2 {}
 
 .c {
     color: tomato;
 }
+
 .pera {
     width: 200px;
     text-align: justify;
     word-spacing: -9px;
 }
+
 button {
     padding: 8px 54px;
     background-color: tomato;
@@ -115,4 +127,66 @@ button::before {
 button:hover::before {
     border-radius: 0px 0px 50% 50%;
     height: 150%;
+}
+
+/*section2*/
+.section2 {
+    width: 100%;
+    height: 500px;
+    background-image: url(/img/wave.svg);
+    background-size: cover;
+ 
+}
+.boxerbap{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lorem {
+
+    font-size: 30px;
+    text-align: center;
+
+}
+.box3{
+
+width: 25%;
+height: 380px;
+background-color:rgba(0, 0, 0, 0.568);
+padding: 15px;
+box-shadow: 2px 1px 9px black;
+
+
+}
+.web{
+}
+.box3 img {
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+    display: block;
+    
+    
+   
+}
+.webtittle{
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+ 
+}
+.web-pera{
+    text-align: justify;
+    margin-top: 37px;
+    color:white;
+}
+.btn{
+    margin: 49px auto;
+    display: block;
+}
+.services{
+
+  box-shadow: 2px 1px 9px rgba(0, 0, 0, 0.116);
+  font-weight: 900;
 }
